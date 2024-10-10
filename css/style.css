@@ -4,6 +4,7 @@
     font-family: "Montserrat", sans-serif;
     box-sizing: border-box;
     margin: 0;
+    color: #ffff;
 }
 
 :root{
@@ -34,7 +35,7 @@ section .fila h1{
 section .fila p{
     color: #999;
     font-size: 22px;
-    padding-top: 36px;
+    padding-top: 40px;
 }
 section .fila2{
     width: 100%;
@@ -42,12 +43,14 @@ section .fila2{
     justify-content: space-between;
     margin-top: 80px;
     flex-wrap: wrap;
+    padding-top: 80px;
 }
 section .fila2 article{
     width: 22%;
     background: #f6f4f4;
     border-radius: 20px 20px 0 0;
     text-align: center;
+    transition: 0.5s;
 
 }
 section .fila2 img{
@@ -62,8 +65,8 @@ section .fila2 img{
 .fila2 article h4{
     font-size: 20px;
     color: var(--secundary-color);
-    font-weight: 400;
-    padding-bottom: 20px;
+    font-weight: 300;
+    padding-bottom: 10px;
 }
 .fila2 .icons{
     padding: 0 8px 20px;
@@ -72,7 +75,7 @@ section .fila2 img{
     font-size: 30px;
     color: #999;
     margin: 0 5px;
-    transition: 1s;
+    transition: 0.5s;
 }
 .fila2 article:hover{
     box-shadow: 0 0 20px 0 #ff650078;
@@ -87,8 +90,9 @@ section .fila2 img{
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
     section{
-        width: 100px;
+        width: 100%;
     }
+    
     section .fila article{
         width: 100%;
     }
@@ -102,8 +106,9 @@ section .fila2 img{
 
 @media screen and (min-width: 320px) and (max-width: 767px){
     section{
-        width: 100px;
+        width: 100%;
     }
+    
     section .fila article{
         width: 100%;
     }
